@@ -27,7 +27,7 @@ npm install
 npm run browser-all
 ```
 
-### 2. [Browser context test](./src/test/browserContextsTest.js)
+### 2. [Browser context test](./src/test/browserContextTest.js)
 
 ```bash
 npm run browser-context

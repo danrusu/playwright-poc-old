@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./src/test/browsersTest.js"
+    "browser-all": "node ./src/test/allBrowsersTest.js",
+    "browser-context": "node ./src/test/browserContextTest.js"
   },
   "keywords": [],
   "author": "Dan Rusu",

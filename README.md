@@ -1,6 +1,6 @@
-# playwright-demo
+# <img src="https://playwright.dev//img/playwright-logo.svg" width="50px" height="50px" align="middle" style="padding: 0px 5px 15px 0px;" /> playwright-demo
 
-**[<img src="https://playwright.dev//img/playwright-logo.svg" width="50px" height="50px" align="middle" style="padding: 0px 5px 15px 0px;" />Playwright](https://playwright.dev/) POC**
+**[Playwright](https://playwright.dev/) POC**
 
 ### 0. Setup
 

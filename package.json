@@ -1,0 +1,15 @@
+{
+  "name": "playright-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/test/browsersTest.js"
+  },
+  "keywords": [],
+  "author": "Dan Rusu",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.22.2"
+  }
+}

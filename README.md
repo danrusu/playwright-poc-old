@@ -2,7 +2,7 @@
 
 <img src="https://playwright.dev//img/playwright-logo.svg" height="50px" />
 
-[Playwright](https://playwright.dev/) POC
+## [Playwright](https://playwright.dev/) POC
 
 ### 0. Setup
 

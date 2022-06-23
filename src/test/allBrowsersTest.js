@@ -1,15 +1,10 @@
 const { chromium, firefox, webkit } = require('playwright');
 
 (async () => {
-  const tests = [chromium, firefox, webkit].reduce(newTest, []);
+  const tests = [chromium, firefox, webkit].map(logPageTitle);
   await Promise.allSettled(tests);
   console.log('Browsers tests finished!');
 })();
-
-function newTest(acc, driver) {
-  acc.push(logPageTitle(driver));
-  return acc;
-}
 
 async function logPageTitle(driver) {
   const browser = await driver.launch({ headless: false });

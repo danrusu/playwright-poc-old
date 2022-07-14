@@ -32,3 +32,9 @@ npm run browser-all
 ```bash
 npm run browser-context
 ```
+
+### 3. Record / Code generator
+
+```bash
+npx playwright codegen "http://qtools.ro"
+```

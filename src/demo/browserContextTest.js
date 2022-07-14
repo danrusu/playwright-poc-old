@@ -1,6 +1,6 @@
 const { chromium } = require('playwright');
 
-const BROWSER_CONTEXTS_COUNT = 10;
+const BROWSER_CONTEXTS_COUNT = 100;
 
 (async () => {
   const browser = await chromium.launch({ headless: false });

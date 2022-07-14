@@ -4,13 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "browser-all": "node ./src/test/allBrowsersTest.js",
-    "browser-context": "node ./src/test/browserContextTest.js"
+    "test": "jest",
+    "record": "playwright codegen",
+    "demi:browser:all": "node ./src/demo/allBrowsersTest.js",
+    "demo:browser:context": "node ./src/demo/browserContextTest.js"
   },
-  "keywords": [],
+  "keywords": [
+    "playright",
+    "jest",
+    "test-automation"
+  ],
   "author": "Dan Rusu",
   "license": "MIT",
   "dependencies": {
+    "jest": "^28.1.3",
+    "jest-junit": "^14.0.0",
     "playwright": "^1.22.2"
   }
 }

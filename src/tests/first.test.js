@@ -2,7 +2,9 @@ const { chromium, firefox, webkit } = require('playwright');
 
 jest.setTimeout(30000);
 
-[chromium, firefox, webkit].forEach(browserDriver => {
+[chromium, firefox, webkit].forEach(runTestSuite);
+
+function runTestSuite(browserDriver) {
   describe('qatools.ro tests', () => {
     let browser;
     let page;
@@ -24,4 +26,4 @@ jest.setTimeout(30000);
       expect(page.tile).not.toBeNull();
     });
   });
-});
+}

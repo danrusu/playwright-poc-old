@@ -1,4 +1,4 @@
-# playwright-demo
+# playwright-poc
 
 <img src="https://playwright.dev//img/playwright-logo.svg" height="50px" />
 

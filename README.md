@@ -16,7 +16,7 @@ $ npm --version
 ### 0. Setup
 
 ```bash
-git clone https://github.com/danrusu/playwright-demo.git
+git clone https://github.com/danrusu/playwright-poc-old.git
 cd playwright-demo
 npm install
 ```

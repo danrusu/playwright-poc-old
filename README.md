@@ -1,8 +1,8 @@
-# playwright-poc
+# playwright-poc-old
 
 <img src="https://playwright.dev//img/playwright-logo.svg" height="50px" />
 
-## [Playwright](https://playwright.dev/) POC
+## [Playwright](https://playwright.dev/) POC - OLD APPROACH (just for reference)
 
 ### Prerequisites
 
